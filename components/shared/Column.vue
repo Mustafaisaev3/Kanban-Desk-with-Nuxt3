@@ -9,7 +9,7 @@
             </div>
             <IconCSS name="mdi:delete" class="text-[red] cursor-pointer" @click="deleteColumn(column.id)"/>
         </div>
-        <div class="w-full h-auto flex flex-col gap-4 border border-transparent rounded-md" :class="isMoving && 'border border-dashed border-[blue]'">
+        <div class="w-full h-auto flex flex-col gap-4 border-[1px] rounded-md" :class="isMoving && 'border border-dashed border-[blue]'">
             <slot></slot>
         </div>
         <div class="w-[230px] h-auto">
