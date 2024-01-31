@@ -12,70 +12,67 @@ const useTasks = defineStore('Tasks', {
         columns: [
             {
                 id: uuid(),
-                title: 'Первое',
-                itemCount: 3,
+                title: 'Запланированно',
                 isDragging: false,
                 tasks: [
                     {
                         id: uuid(),
-                        title: 'Kanban Board 1',
-                        description: 'Some Description'
+                        title: 'Задача 1',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 2',
-                        description: 'Some Description'
+                        title: 'Задача 2',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 3',
-                        description: 'Some Description'
+                        title: 'Задача 3',
+                        description: 'Описание'
                     },
                 ],
             },
             {
                 id: uuid(),
-                title: 'Второе',
-                itemCount: 4,
+                title: 'В работе',
                 isDragging: false,
                 tasks: [
                     {
                         id: uuid(),
-                        title: 'Kanban Board 1',
-                        description: 'Some Description'
+                        title: 'Задача 1',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 2',
-                        description: 'Some Description'
+                        title: 'Задача 2',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 3',
-                        description: 'Some Description'
+                        title: 'Задача 3',
+                        description: 'Описание'
                     },
                 ],
             },
             {
                 id: uuid(),
-                title: 'Третье',
-                itemCount: 1,
+                title: 'Готово',
                 isDragging: false,
                 tasks: [
                     {
                         id: uuid(),
-                        title: 'Kanban Board 1',
-                        description: 'Some Description'
+                        title: 'Задача 1',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 2',
-                        description: 'Some Description'
+                        title: 'Задача 2',
+                        description: 'Описание'
                     },
                     {
                         id: uuid(),
-                        title: 'Kanban Board 3',
-                        description: 'Some Description'
+                        title: 'Задача 3',
+                        description: 'Описание'
                     },
                 ],
             },
